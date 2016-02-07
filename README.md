@@ -9,9 +9,9 @@ The assignment consists of creating a HTML/CSS banner that contains three links 
 Details of the implementation
 -------------------------------
 * I included a favicon. It makes the page look like a more finalized project.
-* Dead links do not show well when validating. This is way I made a page for each link in the navigation, besides Home: Contact and Services.
+* Dead links do not show well when validating. This is way I made a page for each link in the navigation, besides Home.
 * I also included accessibility elements like accesibility navigation, ARIA roles and semantisk HTML and declaring the language of the page.
-* For SEO I used schema microdata, a descriptive title, a unic description text for each page and semantic HTML. 
+* For SEO I used schema microdata, a descriptive title, a unique description text for each page and semantic HTML. 
 * Regarding the design of the elements: I added a shadow for the whole banner, gradient for the background of the banner, shadow for the text and outer glow when on hover state. The current link have recived an orange color.
 * I also added a media query for screen sizes that go under 500px, the size of the banner. On these screens I alo made so that the elements are presented vertically insted of orizontally.
 * I used flexbox for layout.
