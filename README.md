@@ -4,7 +4,7 @@ This is an assignment that I solved as part as a jobb interview with Confirmit.
 
 Description
 ------------
-The assignment consists of creating a HTML/CSS banner that contains three links and a svg logo. The implementation should be based on this picture:
+The assignment consists of creating a HTML/CSS banner that contains three links and a svg logo. The implementation should be based on [this picture](https://github.com/johanna-ux/confirmit-assignment/blob/master/_doc/assignment_files/Menu.psd).
 
 Details of the implementation
 -------------------------------
