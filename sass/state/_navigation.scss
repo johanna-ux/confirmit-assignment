@@ -1,0 +1,19 @@
+/* LINKS
+-------------------------------*/
+
+.nav .menu-item a{ 
+  @include nav-text(); 
+  text-decoration: none;
+  
+  &:hover,
+  &:focus,
+  &:active{
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 1), -2px 0px 6px rgba(0, 0, 0, 1), 0px -2px 6px rgba(0, 0, 0, 1), 2px 0px 6px rgba(0, 0, 0, 1);
+    
+  }
+}
+/* modifier */
+.nav .menu-item.current{
+  color: $dark-bgd-link-current;
+}
+

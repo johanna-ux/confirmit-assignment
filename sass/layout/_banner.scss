@@ -1,0 +1,106 @@
+/* block */
+.banner{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  
+  justify-content: space-around;
+  
+  margin: 112px auto 40px;
+  position: inherit;
+  width: 500px;
+  
+  @media all and (max-width: 500px) {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+      width: 100%;
+  }
+}
+
+.main{
+  margin: 0 auto;
+  width: 500px;
+  
+  @media all and (max-width: 500px){
+    width: 100%;
+  }
+}
+
+.flex1{
+  -webkit-flex: 1.6 1 104px;
+  -ms-flex: 1.6 1 104px;
+  flex: 1.6 1 104px;
+}
+
+.flex2{
+  -webkit-flex: 3.5 1 auto;
+  -ms-flex: 3.5 1 auto;
+  flex: 3.5 1 auto;
+}
+
+/* element/block */
+
+.nav .menu{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  margin: 0;
+  padding: 0;
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+      /* On small screens, we are no longer using row direction but column */
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+  }
+  
+}
+.brand{
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* element */
+.nav .menu .menu-item{
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.brand .logo{
+  padding-left:20px;
+}
+
+.main .main__title{
+  @media all and (max-width: 500px){
+    padding-left: 20px;
+  }
+}
+
+
+/* modifier */
+.nav.nav--primary{
+  margin-right: -20px;
+  
+  @media all and (max-width: 500px){
+    padding-left: 20px;
+  }
+}
+
+
+

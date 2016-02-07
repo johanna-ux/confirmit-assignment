@@ -22,3 +22,4 @@ Details of the implementation
 * I used BrowserStack to test for IE11 support. The result can be seen here: [Image of the page view in IE11](https://www.browserstack.com/screenshots/28db36938794cf66abc473fcc39ec388a88c68f8) 
 * By Evergreen browser I mean browsers that update to the latest version automatically, in the background, without user interaction. Examples of such browsers are the latest versions of Chrome, Firefox, Internet Explorer, and Safari. 
 * The CSS3 elemnts that I used are supported by evergreen browsers (I checked with caniused.com).
+

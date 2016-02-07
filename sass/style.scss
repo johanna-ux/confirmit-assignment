@@ -1,0 +1,39 @@
+/*! Project Meta
+--------------------------------------------------------------
+Theme Name: Confirmit assignment
+Theme URI: 
+Description: CSS implementation of an banner with logo and navigation bar
+
+Author: Johanna Johansen
+Author URI: http://johansen.dynalias.org/
+Version:1.1
+-------------------------------------------------------------- */
+
+
+/* VENDOR
+-------------------------------*/
+@import "utils/normalize";
+@import "utils/mixins";
+
+/* THEME
+-------------------------------*/
+@import "theme/theme";  
+
+/* BASE
+-------------------------------*/
+@import "base/base";
+
+/* MODULE
+-------------------------------*/
+@import "module/navigation";
+
+/* STATE
+-------------------------------*/
+@import "state/navigation";
+
+/* LAYOUT
+-------------------------------*/
+@import "layout/banner";
+
+
+
