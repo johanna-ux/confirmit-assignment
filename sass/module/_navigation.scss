@@ -21,8 +21,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$gray-dark', 
 /* element */
 .nav .menu-item{
   @include nav-text();
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
   list-style: outside none none;
 }
 
