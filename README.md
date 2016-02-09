@@ -8,6 +8,8 @@ The assignment consists of creating a HTML/CSS banner that contains three links 
 
 Details of the implementation
 -------------------------------
+* The project includes the file structure that I usually start with when beginning with a project, even if for example a js folder was not necessary to complete this project. This should not be interpreted like they got there by mistake.
+* In both HTML and CSS files I included som extra parts that are not necessary for completing the assignment, but which are illustrative for how I usually think when working with a larger project. This should not be interpreted like they got there by mistake.
 * I included accessibility elements like accesibility navigation, ARIA roles and semantisk HTML and declaring the language of the page.
 * For SEO I used schema microdata, a descriptive title, a unique description text for each page and semantic HTML. 
 * Regarding the design of the elements: I added a shadow for the whole banner, gradient for the background of the banner, shadow for the text and outer glow on hover state. The active link has recived color orange.
